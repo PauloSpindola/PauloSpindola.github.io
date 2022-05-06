@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champions League</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+<div class="divTudo">
+
+    <div class="divLinha">
+        <div id="divCabecalho">
+            <h1 id="h1TituloCabecalho">Liga dos Campeões da UEFA</h1>
+            <div class="divMenu">
+                <div class="divMenu">
+                    <a href="#divJogos">Jogos</a>
+                </div>
+                <div class="itemMenu">
+                    PARTIDAS
+                 </div>
+                 <div class="itemMenu">
+                    NITÍCIAS
+                 </div>
+                 <div class="itemMenu">
+                    CLASSIFICAÇÃO
+                </div>
+                <div class="itemMenu">
+                    ESTATÍSTICAS
+                </div>
+                <div class="itemMenu">
+                    JOGADORES
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divLinha">
+        <div id="divClassificacao">
+            <h2 class="h2TituloSessao">Classificação</h2>
+            
+            <h3 class="h3TituloGrupo">Grupo A</h3>
+            <table id="tableClassificacao">
+                <tr>
+                    <th class="thNomeClube" colspan="3">Clube</th>
+                    <th>Pts</th>
+                    <th>PJ</th>
+                    <th>VIT</th>
+                    <th>E</th>
+                    <th>DER</th>
+                    <th>GP</th>
+                    <th>GC</th>
+                    <th>SG</th>
+                    <th class="thUltimas">Últimas cinco</th>
+                </tr>
+                <tr>
+                    <td class="tdPosicao">1</td>
+                    <td class="tdImgClube">
+                        <img class="imgClube" src="assets/img/city.png">
+                    </td>
+                    <td class="tdNomeClube">City</td>
+                    <td>12</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>18</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>
+                        <div class="divDer"></div>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                        <div class="divDer"></div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="tdPosicao">2</td>
+                    <td class="tdImgClube">
+                        <img class="imgClube" src="assets/img/psg.png">
+                    </td>
+                    <td class="tdNomeClube">PSG</td>
+                    <td>11</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>13</td>
+                    <td>8</td>
+                    <td>5</td>
+                    <td>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                        <div class="divEmp"></div>
+                        <div class="divDer"></div>
+                        <div class="divVit"></div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="tdPosicao">3</td>
+                    <td class="tdImgClube">
+                        <img class="imgClube" src="assets/img/rbleipzig.png">
+                    </td>
+                    <td class="tdNomeClube">RB Leipzig</td>
+                    <td>7</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>15</td>
+                    <td>14</td>
+                    <td>1</td>
+                    <td>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                        <div class="divEmp"></div>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="tdPosicao">4</td>
+                    <td class="tdImgClube">
+                        <img class="imgClube" src="assets/img/clubbrugge.png">
+                    </td>
+                    <td class="tdNomeClube">Club Brugge</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>20</td>
+                    <td>-14</td>
+                    <td>
+                        <div class="divVit"></div>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                    </td>
+
+                </tr>
+            </table>
+            <h3 class="h3TituloGrupo">Grupo B</h3>
+            <table id="tableClassificacao">
+                <tr>
+                    <th class="thNomeClube" colspan="3">Clube</th>
+                    <th>Pts</th>
+                    <th>PJ</th>
+                    <th>VIT</th>
+                    <th>E</th>
+                    <th>DER</th>
+                    <th>GP</th>
+                    <th>GC</th>
+                    <th>SG</th>
+                    <th class="thUltimas">Últimas cinco</th>
+                </tr>
+                <tr>
+                    <td class="tdPosicao">1</td>
+                    <td class="tdImgClube">
+                        <img class="imgClube" src="assets/img/gremio.png">
+                    </td>
+                    <td class="tdNomeClube">Grêmio</td>
+                    <td>18</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>17</td>
+                    <td>6</td>
+                    <td>11</td>
+                    <td>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="tdPosicao">2</td>
+                    <td class="tdImgClube">
+                        <img class="imgClube" src="assets/img/atleticomadrid.png">
+                    </td>
+                    <td class="tdNomeClube">Atlético Madrid</td>
+                    <td>7</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>-1</td>
+                    <td>
+                        <div class="divVit"></div>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                        <div class="divVit"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tdPosicao">3</td>
+                    <td class="tdImgClube">
+                        <img class="imgClube" src="assets/img/porto.png">
+                    </td>
+                    <td class="tdNomeClube">Porto</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>11</td>
+                    <td>-7</td>
+                    <td>
+                        <div class="divDer"></div>
+                        <div class="divVit"></div>
+                        <div class="divEmp"></div>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="tdPosicao">4</td>
+                    <td class="tdImgClube">
+                        <img class="imgClube" src="assets/img/milan.png">
+                    </td>
+                    <td class="tdNomeClube">Milan</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>9</td>
+                    <td>-3</td>
+                    <td>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                        <div class="divEmp"></div>
+                        <div class="divVit"></div>
+                        <div class="divDer"></div>
+                    </td>
+
+                </tr>
+
+            </table>
+
+            <h3 class="h3TituloGrupo">Grupo C</h3>
+            <table id="tableClassificacao">
+                <tr>
+                    <th class="thNomeClube" colspan="3">Clube</th>
+                    <th>Pts</th>
+                    <th>PJ</th>
+                    <th>VIT</th>
+                    <th>E</th>
+                    <th>DER</th>
+                    <th>GP</th>
+                    <th>GC</th>
+                    <th>SG</th>
+                    <th class="thUltimas">Últimas cinco</th>
+                </tr>
+                <tr>
+                    <td class="tdPosicao">1</td>
+                    <td class="tdImgClube">
+                        <img class="imgClube" src="assets/img/ajax.png">
+                    </td>
+                    <td class="tdNomeClube">Ajax</td>
+                    <td>18</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>20</td>
+                    <td>5</td>
+                    <td>15</td>
+                    <td>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="tdPosicao">2</td>
+                    <td class="tdImgClube">
+                        <img class="imgClube" src="assets/img/sporting.png">
+                    </td>
+                    <td class="tdNomeClube">Sporting</td>
+                    <td>9</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>14</td>
+                    <td>12</td>
+                    <td>2</td>
+                    <td>
+                        <div class="divDer"></div>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                        <div class="divVit"></div>
+                        <div class="divDer"></div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="tdPosicao">3</td>
+                    <td class="tdImgClube">
+                        <img class="imgClube" src="assets/img/borussia.png">
+                    </td>
+                    <td class="tdNomeClube">Borussia</td>
+                    <td>9</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>-1</td>
+                    <td>
+                        <div class="divVit"></div>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                        <div class="divVit"></div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="tdPosicao">4</td>
+                    <td class="tdImgClube">
+                        <img class="imgClube" src="assets/img/besiktas.png">
+                    </td>
+                    <td class="tdNomeClube">Besiktas</td>
+                    <td>0</td>
+                    <td>6</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>19</td>
+                    <td>-16</td>
+                    <td>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                        <div class="divDer"></div>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <div class="divLinha">
+        <div id="divGoleadores">
+            <h2 class="h2TituloSessao">Goleadores</h2>
+            <table id="tableGoleadores">
+                <tr>
+                    <th colspan="2">Jogador</th>
+                    <th>Gols</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="tdNomeJogador">
+                        <div>Diego Souza</div>
+                        <img class="imgClube" src="assets/img/gremio.png">
+                        <span class="spanNomeClube">
+                            Grêmio
+                        </span>
+                    </td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td class="tdNomeJogador">
+                        <div>Karim Benzema</div>
+                        <img class="imgClube" src="assets/img/realmadrid.png">
+                        <span class="spanNomeClube">
+                            Real Madrid
+                        </span>
+                    </td>
+                    <td>11</td>
+                    
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td class="tdNomeJogador">
+                        <div>Sébastien Haller</div>
+                        <img class="imgClube" src="assets/img/ajax.png">
+                        <span class="spanNomeClube">
+                            Ajax
+                        </span>
+                        <td>11</td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td class="tdNomeJogador">
+                        <div>Mohamed Salah</div>
+                        <img class="imgClube" src="assets/img/liverpool.png">
+                        <span class="spanNomeClube">
+                            Liverpool
+                        </span>
+                        <td>8</td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td class="tdNomeJogador">
+                        <div>Christopher Nkunk</div>
+                        <img class="ImgClube" src="assets/img/rbleipzig.png">
+                        <span class="spanNomeClube">
+                            RB Leipzig
+                        </span>
+                        <td>7</td>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>]
+
+    <div class="divLinha">
+        <div id="divJogos">
+            <h2 class="h2TituloSessao">Jogos</h2>
+            <table id="tableJogos">
+                <tr>
+                    <th colspan="2">Próximos jogos</th>
+                </tr>
+                    <td class="tdTableJogos">
+                        <table class="tableJogo">
+                            <tr>
+                                <th class="thTableJogo">Total com o jogo de ida: 0 - 1</th>
+                            </tr>
+                            <tr>
+                                <td class="tdClube">
+                                    <img class="imgClube" src="assets/img/bayern.png">
+                                    Bayern
+                                    
+                                </td>
+                                <td class="tdHorario" rowspan="2">
+                                    Dia 12/04<br>
+                                    16:00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tdClube">
+                                    <img class="imgClube" src="assets/img/villarreal.png">
+                                    Vilarreal
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="tdTableJogos">
+                        <table class="tableJogo">
+                            <tr>
+                                <th class="thTableJogo">Total com o jogo de ida: 3 - 1</th>
+                            </tr>
+                            <tr>
+                                <td class="tdClube">
+                                    <img class="imgClube" src="assets/img/realmadrid.png">
+                                    Real Madrid
+                                    
+                                </td>
+                                <td class="tdHorario" rowspan="2">
+                                    Dia 12/04<br>
+                                    16:00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tdClube">
+                                    <img class="imgClube" src="assets/img/chelsea.png">
+                                    Chelsea
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="tdTableJogos">
+                        <table class="tableJogo">
+                            <tr>
+                                <th class="thTableJogo">Total com o jogo de ida: 0 - 1</th>
+                            </tr>
+                            <tr>
+                                <td class="tdClube">
+                                    <img class="imgClube" src="assets/img/atleticomadrid.png">
+                                    Atlético Madrid
+                                    
+                                </td>
+                                <td class="tdHorario" rowspan="2">
+                                    Dia 13/04<br>
+                                    16:00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tdClube">
+                                    <img class="imgClube" src="assets/img/city.png">
+                                    City
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="tdTableJogos">
+                        <table class="tableJogo">
+                            <tr>
+                                <th class="thTableJogo">Total com o jogo de ida: 3 - 1</th>
+                            </tr>
+                            <tr>
+                                <td class="tdClube">
+                                    <img class="imgClube" src="assets/img/gremio.png">
+                                    Grêmio
+                                    
+                                </td>
+                                <td class="tdHorario" rowspan="2">
+                                    Dia 13/04<br>
+                                    16:00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tdClube">
+                                    <img class="imgClube" src="assets/img/benfica.png">
+                                    Benfica
+                                </td>
+                            </tr>
+                        </table>                    
+                    </td>                 
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
